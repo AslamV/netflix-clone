@@ -1,0 +1,36 @@
+.nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	padding: 20px;
+	z-index: 1;
+	justify-content: space-between;
+	transition-timing-function: ease-in;
+	transition: all .5s;
+}
+.navb {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 30px;
+	display: flex;
+	padding: 20px;
+	z-index: 1;
+	background-color: rgba(51, 51, 51, 1);
+	justify-content: space-between;
+	transition-timing-function: ease-in;
+	transition: all .5s;
+}
+.nav-logo {
+	width: 100px;
+	left: 20px;
+	object-fit: contain;
+}
+.nav-icon {
+	position: fixed;
+	right: 20px;
+	width: 50px;
+	object-fit: contain;
+}

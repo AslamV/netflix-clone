@@ -1,0 +1,39 @@
+.row{
+    margin-left: 10px;
+    color: black;
+    margin: 10px 0px;
+}
+.row h1{
+    text-align: left;
+}
+
+.row_poster{
+
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.row_poster::-webkit-scrollbar{
+    display: none;
+}
+.img-poster{
+    width: 200px;
+    height:150px;
+    object-fit: cover;
+    transition: ease-in .3s;
+    margin-right: 10px;
+}
+.img-poster:hover{
+    transform: scale(1.08);
+}
+.img-posterL{
+    height: 250px;
+    width: 150px;
+    object-fit: contain;
+    transition: ease-in .3s;
+    margin-right: 10px;
+}
+.img-posterL:hover{
+    transform: scale(1.08);
+}
